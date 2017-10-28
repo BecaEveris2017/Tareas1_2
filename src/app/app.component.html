@@ -7,7 +7,7 @@
 </div>
 <h2>Here are some links to help you start: </h2>
 <div>  
-  <button #btnO (click)="fnOculta()" name="btnOculta">{{ocultar?'ocultar':mostrar}}</button>
+  <button #btnO (click)="fnOculta()" name="btnOculta">{{ocultar?'ocultar':'mostrar'}}</button>
 </div>
 <div #lista *ngIf="ocultar" class="black">
   <ul>
